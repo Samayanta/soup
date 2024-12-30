@@ -1,0 +1,8 @@
+[build]
+  functions = "netlify-functions"  # Folder containing your serverless functions
+  publish = "public"  # Folder for static files (set to your build folder)
+
+[dev]
+  functions = "netlify-functions"
+  publish = "public"
+  port = 8888
